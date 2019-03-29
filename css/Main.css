@@ -1,0 +1,445 @@
+body {
+    font-family:Montserrat;
+}
+
+
+.container {
+    width:1160px;
+    margin:auto;
+}
+header {   
+    background: url('../images/header.jpg') no-repeat fixed;
+  background-size: cover;
+  min-height: 650px;
+  position: relative;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    font-weight: bolder;
+    margin: 0px 0px 0px 30px;
+    font-size: 37px;
+    color: white;
+}
+
+nav {
+    width:100%;
+    height:650px;
+    overflow: auto;
+}
+nav ul {
+    padding:0px;
+    list-style: none;
+    margin:40px 0 0 150px;
+    float:right;
+    text-transform: uppercase;
+}
+nav ul li {
+    float: left;
+    text-align: center;
+}
+nav ul li a {
+    float: right;
+    width: 90px;
+    font-size:16px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+nav ul li a:hover {
+    color:#E57479 ;
+  transition: all 0.5s;
+}
+nav .para {
+    color:white;
+    font-family:Roboto;
+    text-align: center;
+}
+nav .para h2 {
+    margin-top:190px;
+    font-size:32px;
+}
+nav .para span {
+    margin-top:45px;
+    font-family: Roboto;
+    font-size:42px;
+    display:block;
+}
+nav .para p {
+    font-size: 17px;
+    display: inline-block;
+    width:60%;
+}
+nav .para button {
+    background: none;
+    border: none;
+
+}
+nav .para button a {
+    color:white;
+    text-decoration: none;
+    background-color: #C54766;
+    display: block;
+    padding:15px 10px;
+    width:100px;
+    border-radius: 10px;
+    text-align: center;
+}
+nav .para button a:hover {
+    opacity: .85;
+  transition: all 0.5s;
+}
+nav .para .buto {
+    background: none;
+    border: none;
+}
+nav .para .buto a {
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: .5;
+    color:white;
+    width:100px;
+    padding:15px 10px;
+}
+nav .para .buto a:hover {
+    opacity: .85;
+    transition: all 0.5s;
+    background-color:#C54766; 
+}
+article .features {
+    margin-top: 50px;
+    width:100%;
+    overflow: hidden;
+    float:right;
+    text-align: center;
+}
+article .features .feat {
+    width:25%;
+    float:left;
+}
+article .features .feat p {
+    text-align: center;
+    padding:0px 10px;
+    display: inline-block;
+    width:100%;
+
+}
+section {
+    background-color: #F3F4F8;
+    height:605px;
+    margin-top:330px;
+    position: absolute;
+    width:100%;
+    display: inline-block;
+    text-align: center;
+}
+section h2 {
+    margin-top:40px;
+    color:#686A6D;
+    font-size:52px;
+}
+section p {
+    color:#686A6D;
+    font-size:22px;
+    display: inline-block;
+    width:70%;
+}
+.hr {
+margin-top: 30px;
+  border: 0;
+  border-top: 0px;
+  height: 3px;
+  width: 90px;
+  background-color: #B0455E;
+}
+.services {
+    overflow: hidden;
+    float:right;
+    text-align: center;
+    font-family: Roboto;
+}
+.services .serv .fu {
+    width:25%;
+    float:left;
+}
+
+.services .serv .fu h2 {
+    font-size: 30px;
+    color:black;
+    margin-left:10px;
+    text-align: left;
+    width:285px;
+    text-transform: uppercase;
+    margin-left:50px;
+
+}
+
+.services .serv .fu p {
+    text-align: left;
+    padding:0px 10px;
+    font-size: 15px;
+    color:black;
+    margin-left:40px;
+    display: inline-block;
+    width:80%;
+    
+}
+.services .serv .fu a {
+float:left;
+margin-left:50px;
+color:#AF445D;
+text-decoration: none;
+}
+.services .serv .fu a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.works {
+    margin-top:700px;
+    text-align: center;
+    display: inline-block;
+    width:100%
+}
+.works h2 {
+    font-family:Roboto;
+    font-weight:bolder;
+    font-size:32px;
+    color:#67696C;
+}
+.works p {
+    color:#67696C;
+    font-size: 23px;
+    margin-left:20px;
+    margin-top:50px;
+    display: inline-block;
+    width:100%
+}
+.port {
+    
+    padding:30px 0 30px 0;
+
+}
+.port .workd {
+    overflow: hidden;
+}
+.port .workd >div  {
+    float:left;
+    width:33.333333%;
+    margin-bottom:10px;
+}
+.port .workd >div img {
+    width:97%;
+    margin:10px;
+}
+.test {
+    text-align: center;
+   
+}
+.test ul {
+    list-style:none;
+    padding-left: 0px;
+    text-align: center;
+    margin-top:10px;
+}
+.test ul li {
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    display: inline-block;
+border:2px solid #B0455E}
+.test ul li.active,.test ul li:hover {
+    background-color:#B0455E; 
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.test .bac {  
+    background: url('../images/bg.jpg') no-repeat fixed;
+  background-size: cover;
+  min-height:390px;
+  position: relative;
+    width: 100%;
+}
+.test .bac .imga {
+    display: inline-block;
+    margin-top:60px;
+    border:5px solid #b0455e;
+    border-radius: 50%;
+    
+}
+.test  p {
+    
+margin-top:40px;
+color:white;
+    display: inline-block;
+    width:70%;
+}
+
+.test  h2 {
+    color:white;
+}
+article  {
+    text-align: center;
+   
+}
+.ar h1 {
+    margin-top:80px;    
+    color:#686A6D;
+    font-size: 42px;
+    font-family: Roboto;
+}
+.ar p {
+    color:#919496;
+    width:75%;
+    margin-left: 150px;
+    font-size: 22px;
+
+}
+
+.pi{
+    
+    padding:30px 0 30px 0;
+
+}
+.pi .all {
+    overflow: hidden;
+}
+.pi .all >div  {
+    float:left;
+    width:33.333333%;
+    margin-bottom:10px;
+}
+.pi .all >div img {
+    max-width:93%;
+    margin:16px;
+    opacity:0.75;
+    position: relative;
+    overflow: hidden;
+    border-radius:8px;
+}
+.pi .all >div img:hover {
+    opacity:1;
+    transition:all 0.5s ease-in-out;
+  transform: scale(1.05);
+}
+.pi .all >div h3 {
+    color:#686A6D;
+    margin-left:20px;
+    text-align: left;
+}
+.pi .all >div span {
+    
+    margin:20px 20px 0 20px;
+    text-align: left;} 
+.pi .all >div p {
+    text-align: left; 
+    margin-left: 20px;
+    width:380px;
+    color:#7f7a7a;
+    margin-bottom: 35px;
+}
+.pi .all >div a {
+    color:#B0455E;
+    text-decoration: none;
+    margin-left:20px;
+}
+.pi .all >div a:hover {
+        text-decoration: underline;
+        color:#96ACC0;
+}
+
+.final {
+    height: 700px;
+    position: relative;
+    background: url('../images/aj.jpg') no-repeat fixed;
+  background-size: cover;
+    display: inline-block;
+    width:100%;
+
+    
+}
+.final h1 {
+    text-align: center;
+    color:white;
+    margin-top:50px;
+    font-size:32px;
+    font-family: Roboto;
+}
+.final p {
+    text-align: center;
+    color:white;
+    font-size:18px;
+    display: inline-block;
+    width:70%;
+    margin-left:175px;
+}
+form {
+    margin-left:70px;
+}
+input[type=text], select, textarea{
+  width: 60%;
+float:left;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+
+}
+
+/* Style the label to display next to the inputs */
+
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #F89D8F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+    width:300px;
+margin-top:10px;
+ margin-left:120px;
+
+
+}
+input[type=submit]:hover {
+opacity:.85;}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: right;
+  width: 25%;
+  margin-top: 6px;
+
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: right;
+  width: 75%;
+  margin-top: 6px;
+
+}
+
+.logos img {
+    margin-left:710px;
+    width:50px;
+    height:30px;
+    margin-top:120px;
+    opacity: 0.75;
+
+
+}
+footer {
+    background-color:#201D20;
+    display:inline-block;
+    width:100%;
+    text-align: center;
+    color:white;
+    font-size: 13px;
+}
+footer p {
+    padding:5px;
+}
