@@ -118,6 +118,10 @@ article .features .feat {
     width:25%;
     float:left;
 }
+article .features .feat:hover {
+    background-color:#AA415C;
+    transition: 0.5s;
+}
 article .features .feat p {
     text-align: center;
     padding:0px 10px;
