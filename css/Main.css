@@ -107,28 +107,30 @@ nav .para .buto a:hover {
     transition: all 0.5s;
     background-color:#C54766; 
 }
+article {
+    padding:30px 0 30px; 0;
+}
 article .features {
-    margin-top: 50px;
-    width:100%;
     overflow: hidden;
-    float:right;
     text-align: center;
+    margin-left:2px;
 }
 article .features .feat {
     width:25%;
     float:left;
 }
+article .features .feat img {
+    width:20%;
+    margin:10px;
+    
+}
 article .features .feat:hover {
-    background-color:#AA415C;
-    transition: 0.5s;
+    background-color:e01a4c;
+    border-radius:9px;
+    transition: 0.4s;
+    color:white;
 }
-article .features .feat p {
-    text-align: center;
-    padding:0px 10px;
-    display: inline-block;
-    width:100%;
 
-}
 section {
     background-color: #F3F4F8;
     height:605px;
